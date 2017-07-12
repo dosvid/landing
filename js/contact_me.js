@@ -20,15 +20,13 @@ $(function() {
                 firstName = name.split(' ').slice(0, -1).join(' ');
             }
             $.ajax({
-                url: "././mail/contact_me.php",
+                url: "https://formspree.io/experience.landing@gmail.com",
                 type: "POST",
                 data: {
                     name: name,
-                    phone: phone,
-                    email: email,
-                    message: message
+                    email: email
                 },
-                cache: false,
+                dataType: 'json',
                 success: function() {
                     // Success message
                     $('#success').html("<div class='alert alert-success'>");
