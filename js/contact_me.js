@@ -24,7 +24,8 @@ $(function() {
                 type: "POST",
                 data: {
                     name: name,
-                    email: email
+                    email: email,
+                    message: message
                 },
                 dataType: 'json',
                 success: function() {
