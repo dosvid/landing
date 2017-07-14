@@ -1,3 +1,7 @@
 .idea/vcs.xml
 node_modules/
 /.idea/
+/.idea/experience-landing.iml
+/.idea/modules.xml
+/.idea/workspace.xml
+.idea/deployment.xml
