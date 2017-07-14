@@ -1,3 +1,8 @@
 .idea/vcs.xml
 node_modules/
 newrelic_agent.log
+/.idea/
+/.idea/experience-landing.iml
+/.idea/modules.xml
+/.idea/workspace.xml
+.idea/deployment.xml
