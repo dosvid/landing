@@ -782,7 +782,7 @@ section .row {
 :-ms-input-placeholder { /* Internet Explorer 10-11 */
   color:    #909;
 }
-::-ms-input-placeholder { /* Microsoft Edge */
+:-ms-input-placeholder { /* Microsoft Edge */
   color:    #909;
 }
 .form-group label {
@@ -800,6 +800,16 @@ section .row {
   font-size: 14px;
   font-family: Verdana;
 }
+
+#services ul.list-group.list-group-justified > li.list-group-item {
+    min-height: 80px;
+}
+
+#page-top > header > div > div > div > div.intro-lead-in {
+    font-style : normal;
+}
+
+
 #logo { height: 2em; }
 .navbar-brand {
   padding: 0px;
